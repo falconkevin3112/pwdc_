@@ -1,0 +1,26 @@
+h1,p,div{
+    background-color: #dde0e3;
+}
+  
+em,strong,span {
+    color: rgb(210, 16, 16);
+    background-color: #77dc30;
+    
+
+}
+
+h1{
+    padding: 50px;
+    margin: 50px;
+    border: 1px solid black;
+    
+
+}
+
+div{
+    padding: 10px 5px 15px 3px;
+    margin:  20px;
+    border: 1px solid blue;
+    
+
+}

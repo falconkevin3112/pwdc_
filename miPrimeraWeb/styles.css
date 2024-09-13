@@ -1,0 +1,151 @@
+
+body {
+    background-color: black; 
+    color: #0be613; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #07ec0f;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #1E1E1E;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    
+    color: #f0190a; 
+}
+
+main {
+    padding: 20px;
+
+}
+
+.log{
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumvioletred;
+}
+
+
+
+
+.acerca-de h2 {
+    color: #76FF03; 
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.acerca-de p {
+    color: white;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.acerca-de .parrafo1{
+    color: goldenrod;
+}
+
+.acerca-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerca-imagen img {
+    
+    display: flex;
+    justify-content: center;
+    
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+}
+.seccion-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-2 img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+}
+
+
+
+.info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    color: #76FF03; 
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer ul li a:hover {
+    color: #76FF03; 
+}

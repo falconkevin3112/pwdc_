@@ -1,0 +1,113 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del encabezado */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+}
+
+.delivery-bar {
+    background-color: rgb(218, 221, 13);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(40, 155, 40);
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.icons img {
+    max-height: 40px;
+    margin-left: 20px;
+}
+
+/* Estilos de la barra de navegación */
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.main-nav ul li {
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos del carrusel */
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-products {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    max-width: 200px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #333;
+}
+
+

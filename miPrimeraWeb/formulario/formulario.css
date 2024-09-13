@@ -1,0 +1,131 @@
+.inicio li a{
+    font-family: sans-serif;
+    
+    color: #f0190a;
+}
+
+
+nav {
+    background-color: #1E1E1E;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    
+    color: #f0190a; 
+}
+
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+  }
+  .container {
+    max-width: 15px; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 10px; /* Agrega un poco de espacio alrededor del formulario */
+    border: 5px ; /* Agrega un borde al contenedor */
+    border-radius: auto; /* Agrega bordes redondeados al contenedor */
+  }
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 200px; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+    color: #1E1E1E;
+    background-color: yellow;
+    /* Coloca estilos a tu botón */
+    
+  }
+
+  
+  button:hover {
+    background-color: #4fec41;
+  }
+
+ 
+  
+  .form_contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    width: 100%;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  form {
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+footer {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    color: #76FF03; 
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer ul li a:hover {
+    color: #76FF03; 
+}
